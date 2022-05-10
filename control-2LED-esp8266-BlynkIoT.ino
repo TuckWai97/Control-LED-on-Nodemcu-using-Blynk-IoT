@@ -6,9 +6,9 @@
 
 // Template ID, Device Name and Auth Token are provided by the Blynk.Cloud
 // See the Device Info tab, or Template settings
-#define BLYNK_TEMPLATE_ID "TMPLS4H_zSwu"
-#define BLYNK_DEVICE_NAME "NodeMCU"
-#define BLYNK_AUTH_TOKEN            "wAE4uJpEqs93JRLO54zp6sverW3oiD9Y"
+#define BLYNK_TEMPLATE_ID ""
+#define BLYNK_DEVICE_NAME ""
+#define BLYNK_AUTH_TOKEN            ""
 
 // Comment this out to disable prints and save space
 #define BLYNK_PRINT Serial
