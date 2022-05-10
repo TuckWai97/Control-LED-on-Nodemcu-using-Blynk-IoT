@@ -20,12 +20,15 @@ char auth[] = BLYNK_AUTH_TOKEN;
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "me";
-char pass[] = "Drg2855215@";
+// Please put your wifi name in the quotation marks for char ssid
+// Please put your wifi password in the char pass's quotation marks
+char ssid[] = "";
+char pass[] = "";
 //static const uint8_t D4=2;
 
 
 BlynkTimer timer;
+// connect pin A0 of nodemcu with 10k potentiometer
 #define POT A0
 bool eventTrigger = false;
 // This function is called every time the Virtual Pin 0 state changes
@@ -64,7 +67,7 @@ void myTimerEvent()
   // Please don't send more than 10 values per second.
   int pot_adc = analogRead(POT);
   
-
+ 
   Serial.println("Potentiometer ADC: "+ String(pot_adc));
  
   Blynk.virtualWrite(V1, pot_adc);
