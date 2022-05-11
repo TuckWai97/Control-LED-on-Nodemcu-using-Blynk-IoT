@@ -10,4 +10,10 @@ https://user-images.githubusercontent.com/47237045/167826220-d99fa59d-4bf8-4135-
 https://user-images.githubusercontent.com/47237045/167827742-4e542c85-3c8e-457b-bacf-788bf41b5ce5.mp4
 
 **REMEMBER to fill in your SSID name and its password into Arduino program in Arduino IDE too**
+**This is just example ssid and password**
+
+
+https://user-images.githubusercontent.com/47237045/167832168-defd0677-7193-4377-b0d8-26688c087948.mp4
+
+Well done! You should able to control LEDs from real time using Blynk dashboard!
 
